@@ -15,7 +15,7 @@ s3 = boto.connect_s3(AWSAccessKeyId, AWSSecretKey)
 
 # Creates a new bucket
 #bucket_name = raw_input('Please enter a bucket name: ')
-bucket = s3.create_bucket('bucket1simran')
+bucket = s3.create_bucket('my_bucket_name')
 print 'Bucket has been created!'
 
 
